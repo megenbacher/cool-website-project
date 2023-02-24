@@ -107,7 +107,7 @@
     font-family: 'Open Sans', sans-serif;
     background: url('../img/colorful-sky.jpg');
     background-size: cover;
-    text-align: right;
+    text-align: center;
     color: #e2e3ed;
    
   }
@@ -212,12 +212,15 @@
     flex-flow: row wrap;
    }
   
-  /*.header-divider {
-    background: url('../img/colorful-sky.jpg');;
-    height: 1px;
-    width: 100%;
-    margin: 10px 0 20px 0;
-  }*/
+  header .header-divider {
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  h1 .sign {
+    color: pink;
+  }
   
   header nav {
     width: 60%;
