@@ -155,7 +155,7 @@
   
   img {
     width: 100%;
-    opacity: .5;
+    opacity: .2;
     border-radius: 25px;
   
   }
@@ -179,14 +179,14 @@
   
   /* ---- BASE HEADER FOOTER STYLES -----*/
   
-  header,
+ /* header,
   footer {
 
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
   
-  }
+  } */
   
   /* ----- HEADER STYLES ------ */
   
@@ -200,8 +200,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
+   
   
+  }
+
+  p {
+    color: #2a423a;
   }
   
   header figure {
