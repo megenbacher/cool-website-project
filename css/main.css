@@ -328,7 +328,11 @@
   
   aside .form {
     margin-top: 30px;
+    padding-top: 30px;
     text-align: center;
+    background-color:#2a423a;
+    opacity: .7;
+    border-radius: 10%;
   }
   
   input[type=text] {
@@ -348,6 +352,7 @@
     border: none;
     text-align: center;
     text-transform: uppercase;
+    border-radius: 5%;
   }
   
   /* --- Features ---*/
@@ -636,7 +641,7 @@
     aside .content-wrapper {
       margin: 50px 0;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       flex-flow: row wrap;
 
     }
@@ -823,6 +828,7 @@
       width: 30%;
       background-color:#2a423a;
       opacity: .7;
+      border-radius: 10%;
     }
   
     .form-description p {
